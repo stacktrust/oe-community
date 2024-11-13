@@ -16,12 +16,19 @@ $discard
 /doc/training/yocto/$boost=6,site=bootlin.com
 $boost=6,site=elinux.org
 
+! official documentation
+
+$boost=6,site=yoctoproject.org
+$boost=6,site=openembedded.org
+$boost=6,site=docs.yoctoproject.org
+$boost=6,site=layers.openembedded.org
+
 ! wiki, mailing lists, forums and IRC
 
-$boost=5,site=wiki.yoctoproject.org
-$boost=5,site=wiki.openembedded.org
-$boost=5,site=lists.yoctoproject.org
+$boost=6,site=wiki.yoctoproject.org
+$boost=6,site=wiki.openembedded.org
 
+$boost=5,site=lists.yoctoproject.org
 /openembedded-core/$boost=5,site=lore.kernel.org
 /openembedded-devel/$boost=5,site=lore.kernel.org
 /bitbake-devel/$boost=5,site=lore.kernel.org
@@ -29,15 +36,9 @@ $boost=5,site=lists.yoctoproject.org
 /irc/$boost=5,site=yoctoproject.org
 /yocto/$boost=5,site=libera.irclog.whitequark.org
 /tags/yocto/$boost=5,site=stackoverflow.com
-/r/yocto/$boost=5,site=www.reddit.com
 /questions/tagged/yocto/$boost=5,site=unix.stackexchange.com
 
-! official documentation
-
-$boost=4,site=yoctoproject.org
-$boost=4,site=openembedded.org
-$boost=4,site=docs.yoctoproject.org
-$boost=4,site=layers.openembedded.org
+/r/yocto/$boost=4,site=www.reddit.com
 
 ! blogs
 
@@ -59,3 +60,5 @@ $boost=3,site=pagefault.blog
 /topics/bitbake/
 /topics/openembedded/
 
+! downrank PATCH files
+*PATCH*$downrank,site=lists.yoctoproject.org
