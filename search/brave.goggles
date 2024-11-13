@@ -8,8 +8,8 @@ $discard
 
 ! URL keyword
 
-*yocto*$boost=1, site=stackoverflow.com
-*yocto*$boost=1, site=stackexchange.com
+*yocto*$boost=1,site=stackoverflow.com
+*yocto*$boost=1,site=stackexchange.com
 
 ! conference archives and training
 
@@ -22,39 +22,39 @@ $boost=5,site=wiki.yoctoproject.org
 $boost=5,site=wiki.openembedded.org
 $boost=5,site=lists.yoctoproject.org
 
-/openembedded-core/$boost=5, site=lore.kernel.org
-/openembedded-devel/$boost=5, site=lore.kernel.org
-/bitbake-devel/$boost=5, site=lore.kernel.org
-/yocto-docs/$boost=5, site=lore.kernel.org
-/irc/$boost=5, site=yoctoproject.org
-/yocto/$boost=5, site=libera.irclog.whitequark.org
-/tags/yocto/$boost=5, site=stackoverflow.com
-/r/yocto/$boost=5, site=www.reddit.com
-/questions/tagged/yocto/$boost=5, site=unix.stackexchange.com
+/openembedded-core/$boost=5,site=lore.kernel.org
+/openembedded-devel/$boost=5,site=lore.kernel.org
+/bitbake-devel/$boost=5,site=lore.kernel.org
+/yocto-docs/$boost=5,site=lore.kernel.org
+/irc/$boost=5,site=yoctoproject.org
+/yocto/$boost=5,site=libera.irclog.whitequark.org
+/tags/yocto/$boost=5,site=stackoverflow.com
+/r/yocto/$boost=5,site=www.reddit.com
+/questions/tagged/yocto/$boost=5,site=unix.stackexchange.com
 
 ! official documentation
 
-$boost=4, site=yoctoproject.org
-$boost=4, site=openembedded.org
-$boost=4, site=docs.yoctoproject.org
-$boost=4, site=layers.openembedded.org
+$boost=4,site=yoctoproject.org
+$boost=4,site=openembedded.org
+$boost=4,site=docs.yoctoproject.org
+$boost=4,site=layers.openembedded.org
 
 ! blogs
 
-$boost=3, site=pagefault.blog
-/en/tags/yocto.html^$boost=3, site=www.pengutronix.com
-/blog/$boost=3, site=koansoftware.com
-/blog/$boost=3, site=reliableembeddedsystems.com
-/blog/tag/engineering/$boost=3, site=mender.io
-/yocto-project-blog-page/$boost=3, site=konsulko.com
-/category/yocto/$boost=3, site=siliconbladeconsultants.com
-/category/yocto/$boost=3, site=kickstartembedded.com
+$boost=3,site=pagefault.blog
+/en/tags/yocto.html^$boost=3,site=www.pengutronix.com
+/blog/$boost=3,site=koansoftware.com
+/blog/$boost=3,site=reliableembeddedsystems.com
+/blog/tag/engineering/$boost=3,site=mender.io
+/yocto-project-blog-page/$boost=3,site=konsulko.com
+/category/yocto/$boost=3,site=siliconbladeconsultants.com
+/category/yocto/$boost=3,site=kickstartembedded.com
 
-/tag/yoctoproject/$boost=2, site=medium.com
+/tag/yoctoproject/$boost=2,site=medium.com
 
 # source code
 
-/topics/yocto/$boost=2, site=github.com
+/topics/yocto/$boost=2,site=github.com
 /topics/yocto-project/
 /topics/bitbake/
 /topics/openembedded/
