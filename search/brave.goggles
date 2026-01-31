@@ -43,6 +43,7 @@ $boost=5,site=lists.yoctoproject.org
 ! blogs
 
 $boost=3,site=pagefault.blog
+$boost=3,site=xtremekforever.substack.com
 /en/tags/yocto.html^$boost=3,site=www.pengutronix.com
 /blog/$boost=3,site=koansoftware.com
 /blog/$boost=3,site=reliableembeddedsystems.com
