@@ -51,7 +51,10 @@ $boost=3,site=xtremekforever.substack.com
 /yocto-project-blog-page/$boost=3,site=konsulko.com
 /category/yocto/$boost=3,site=siliconbladeconsultants.com
 /category/yocto/$boost=3,site=kickstartembedded.com
+/category/blog/$boost=3,site=rootcommit.com
+/tags/yocto/$boost=3,site=kobimedrish.com
 
+/embedded-linux/$boost=2,site=jaycarlson.net
 /tag/yoctoproject/$boost=2,site=medium.com
 
 # source code
