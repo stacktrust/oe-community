@@ -53,6 +53,7 @@ $boost=3,site=xtremekforever.substack.com
 /category/yocto/$boost=3,site=kickstartembedded.com
 /category/blog/$boost=3,site=rootcommit.com
 /tags/yocto/$boost=3,site=kobimedrish.com
+/blog/tag/yocto/$boost=3,site=www.thegoodpenguin.co.uk
 
 /embedded-linux/$boost=2,site=jaycarlson.net
 /tag/yoctoproject/$boost=2,site=medium.com
